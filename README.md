@@ -6,7 +6,6 @@ O Raspberry Pi não requer conexão prévia com a internet para ser configurado.
 1. Autenticar solicitações usando a senha individual da máquina.
 2. Registrar usuários vinculados e autorizados para operar o equipamento.
 3. Receber credenciais de Wi-Fi e conectar-se à rede sem fio via `NetworkManager` (`nmcli`).
-
 ---
 
 ## 🛠️ Tecnologias e Requisitos
@@ -24,7 +23,7 @@ O Raspberry Pi não requer conexão prévia com a internet para ser configurado.
 ## 📁 Estrutura do Projeto
 
 ```text
-.
+
 ├── cardforge_ble.py   # Script principal (servidor GATT, comandos CLI, Wi-Fi e Auth)
 ├── requirements.txt   # Dependências do projeto Python (versões fixadas)
 ├── setup.sh           # Script de instalação e provisionamento automatizado no Linux
